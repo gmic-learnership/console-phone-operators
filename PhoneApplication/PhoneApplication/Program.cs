@@ -13,7 +13,7 @@ namespace PhoneApplication
 
             Console.ForegroundColor = ConsoleColor.Cyan;
             string tel = Console.ReadLine();
-            while (tel != "!")
+            while (tel != "x")
             { 
             Console.WriteLine("Please enter the the number you wish to dial");
             Console.ForegroundColor = ConsoleColor.White;
