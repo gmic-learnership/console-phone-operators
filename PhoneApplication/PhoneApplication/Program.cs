@@ -46,13 +46,13 @@ namespace PhoneApplication
                         }
                         if (tel == "0723456789")
                         {
-                            Console.WriteLine("calling Bonginkosi");
+                            Console.WriteLine("Calling Bonginkosi");
                         }
 
 
                         if (tel == "0699876543")
                         {
-                            Console.WriteLine("calling Dantani");
+                            Console.WriteLine("Calling Dantani");
                         }
 
                         if (tel == "0112345678")
@@ -64,11 +64,15 @@ namespace PhoneApplication
                         {
                             Console.WriteLine("DTH company ");
                         }
+                        if (tel == "0837443209")
+                        {
+                            Console.WriteLine("Calling Tendani");
+                        }
                     }
                     else
                     { // third else(IF)
                         Console.ForegroundColor = ConsoleColor.Red;
-                        Console.WriteLine("Check the number and try again");
+                        Console.WriteLine("Please Check the number and try again");
                         Console.Beep();
                     }// third ELSE (IF)
 
