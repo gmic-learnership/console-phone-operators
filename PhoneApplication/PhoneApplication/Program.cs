@@ -15,6 +15,7 @@ namespace PhoneApplication
             string tel = Console.ReadLine();
             while (tel != "x")
             { 
+            Console.WriteLine("\n\n\t**********Welcome To The Oparetors Phone Dailer***********\n\n");    
             Console.WriteLine("Please enter the the number you wish to dial");
             Console.ForegroundColor = ConsoleColor.White;
              tel = Console.ReadLine();
