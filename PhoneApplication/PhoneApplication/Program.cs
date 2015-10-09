@@ -45,30 +45,35 @@ namespace PhoneApplication
                         {
                             Console.WriteLine(" Calling vivian ");
                         }
-                        if (tel == "0723456789")
+                        else if (tel == "0723456789")
                         {
                             Console.WriteLine("Calling Bonginkosi");
                         }
 
 
-                        if (tel == "0699876543")
+                        else if (tel == "0699876543")
                         {
                             Console.WriteLine("Calling Dantani");
                         }
 
-                        if (tel == "0112345678")
+                        else if (tel == "0112345678")
                         {
                             Console.WriteLine("DVT campany");
                         }
 
-                        if (tel == "0123692581")
+                        else if (tel == "0123692581")
                         {
                             Console.WriteLine("DTH company ");
                         }
-                        if (tel == "0837443209")
+                        else if (tel == "0837443209")
                         {
                             Console.WriteLine("Calling Tendani");
                         }
+                         else if (tel == "Exit")
+                    {
+                        Environment.Exit(0);
+                        Console.ReadLine();
+                    }
                     }
                     else
                     { // third else(IF)
