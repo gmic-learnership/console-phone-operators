@@ -20,11 +20,6 @@ namespace Telephone
             while (TeleNumbers != "x")
             {
                 string Str = "";
-                //bool istext = true;
-
-                // bool msg;
-
-                //  msg = num.IsNumber(Str);
 
                 Str.Trim();
                int Num;
@@ -40,13 +35,10 @@ namespace Telephone
                     Console.WriteLine("Invalid number");
                 }
 
-
-
-
-                
                 {
 
                     TeleNumbers = Console.ReadLine();
+                    
                     // adding Contacts to the Programme
                     Console.ForegroundColor = ConsoleColor.DarkMagenta;
 
