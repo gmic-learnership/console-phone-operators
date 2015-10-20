@@ -20,23 +20,7 @@ namespace Telephone
 
             while (TeleNumbers != "Exit" ||TeleNumbers != "exit" )
             {
-             //   string Str = "";
-                //bool istext = true;
-
-                // bool msg;
-
-                //  msg = num.IsNumber(Str);
-
-              //  Str.Trim();
-                
-
-
-
-
-
-               
-
-                //    TeleNumbers = Console.ReadLine();
+             
                     // adding Contacts to the Programme
                     Console.ForegroundColor = ConsoleColor.DarkMagenta;
 
@@ -72,13 +56,6 @@ namespace Telephone
                         }
 
                     }
-                
-                    
-
-                    //if (TeleNumbers == "Exit")
-                    //{
-                    //    Environment.Exit(0);
-                    //}
         
 
                     //Defining the Length
