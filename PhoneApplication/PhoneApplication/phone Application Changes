@@ -16,29 +16,27 @@ namespace Telephone
             Console.WriteLine("\n\n\t**********Welcome To The Oparetors Phone Dailer***********\n\n");
 
             Console.WriteLine("Please enter your Number Below or Type 'Exit' to exit this program");
-           TeleNumbers = Console.ReadLine();
-            while (TeleNumbers != "x")
+            TeleNumbers = Console.ReadLine();
+
+            while (TeleNumbers != "Exit" ||TeleNumbers != "exit" )
             {
-                string Str = "";
+             //   string Str = "";
+                //bool istext = true;
 
-                Str.Trim();
-               int Num;
-                bool isNum = int.TryParse(Str, out Num);
-                if (isNum)
-                {
-                    Console.WriteLine("now dialling" + "  " + Str);
-                    Console.WriteLine(Num.ToString());
-                }
-             else
-                {
-                    Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine("Invalid number");
-                }
+                // bool msg;
 
-                {
+                //  msg = num.IsNumber(Str);
 
-                    TeleNumbers = Console.ReadLine();
-                    
+              //  Str.Trim();
+                
+
+
+
+
+
+               
+
+                //    TeleNumbers = Console.ReadLine();
                     // adding Contacts to the Programme
                     Console.ForegroundColor = ConsoleColor.DarkMagenta;
 
@@ -53,29 +51,35 @@ namespace Telephone
                         TeleNumbers = TeleNumbers.Replace(" ", "");
 
                         Console.WriteLine(TeleNumbers);
+                    }
+                    switch (TeleNumbers)
+                    {
+                        case "0837443209":
+                            Console.WriteLine("Successfully Dailed Tendani!");
+                            break;
+                        //i changed Chris Number from 082 to 072
+                        case "0729071212":
+                            Console.WriteLine("Successfully Dailed Chris!");
+                            break;
+                        case "0115651212":
+                            Console.WriteLine("Successfully Dailed DVT");
+                            break;
+                    
+                    default:
+                        {
+                     
+                        break;
+                        }
 
                     }
-                    if (TeleNumbers == "0837443209")
-                    {
-                        Console.WriteLine("Successfully Dailed Tendani!");
-                    }
+                
+                    
 
-                    //i changed Chris Number from 082 to 072 
-                    else if (TeleNumbers == "0729071212")
-                    {
-                        Console.WriteLine("Successfully Dailed Chris!");
-                    }
-                    else if (TeleNumbers == "0115651212")
-                    {
-                        Console.WriteLine("Successfully Dailed DVT");
-                    }
-
-
-                    else if (TeleNumbers == "Exit")
-                    {
-                        Environment.Exit(0);
-                        Console.ReadLine();
-                    }
+                    //if (TeleNumbers == "Exit")
+                    //{
+                    //    Environment.Exit(0);
+                    //}
+        
 
                     //Defining the Length
                     if (TeleNumbers.Length != 10)
@@ -84,19 +88,21 @@ namespace Telephone
                         Console.WriteLine("Sorry your tel No. have to be 10");
                     }
                     //adding the codes needed when dailing
-                    else if (TeleNumbers.Substring(0, 3) == "012" || TeleNumbers.Substring(0, 3) == "011" || TeleNumbers.Substring(0, 3) == "083" || TeleNumbers.Substring(0, 3) == "072")
+                    if (TeleNumbers.Substring(0, 3) == "012" || TeleNumbers.Substring(0, 3) == "011" || TeleNumbers.Substring(0, 3) == "083" || TeleNumbers.Substring(0, 3) == "072")
                     {
-
-                        Console.WriteLine("Daling");
-                        Console.ReadLine();
+ 
+                        Console.WriteLine("valid Number");
+                        
                     }
-                    else
+                    else 
                     {
                         Console.ForegroundColor = ConsoleColor.Red;
                         Console.WriteLine("Sorry Please start with: 011 , 083 , 072 , 069 or 073");
                     }
 
-                }
+                    TeleNumbers = Console.ReadLine();
+
+                
             }
 
 
