@@ -4,3 +4,9 @@ C:\Users\VTEBEILA\Documents\Visual Studio 2015\Projects\PhoneApplication\PhoneAp
 C:\Users\VTEBEILA\Documents\Visual Studio 2015\Projects\PhoneApplication\PhoneApplication\obj\Debug\PhoneApplication.csprojResolveAssemblyReference.cache
 C:\Users\VTEBEILA\Documents\Visual Studio 2015\Projects\PhoneApplication\PhoneApplication\obj\Debug\PhoneApplication.exe
 C:\Users\VTEBEILA\Documents\Visual Studio 2015\Projects\PhoneApplication\PhoneApplication\obj\Debug\PhoneApplication.pdb
+C:\Users\VTEBEILA\Documents\First_Git_program\PhoneApplication\PhoneApplication\bin\Debug\PhoneApplication.exe.config
+C:\Users\VTEBEILA\Documents\First_Git_program\PhoneApplication\PhoneApplication\obj\Debug\PhoneApplication.exe
+C:\Users\VTEBEILA\Documents\First_Git_program\PhoneApplication\PhoneApplication\obj\Debug\PhoneApplication.pdb
+C:\Users\VTEBEILA\Documents\First_Git_program\PhoneApplication\PhoneApplication\obj\Debug\PhoneApplication.csprojResolveAssemblyReference.cache
+C:\Users\VTEBEILA\Documents\First_Git_program\PhoneApplication\PhoneApplication\bin\Debug\PhoneApplication.exe
+C:\Users\VTEBEILA\Documents\First_Git_program\PhoneApplication\PhoneApplication\bin\Debug\PhoneApplication.pdb
